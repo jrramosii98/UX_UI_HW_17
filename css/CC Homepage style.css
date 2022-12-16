@@ -1,0 +1,23 @@
+body {
+    font-family: 'PT Sans';
+    margin: 0px 0px 0px;
+    background-color: #0A3161;
+}
+.headerNav{
+    position: fixed;
+    height: 208px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    'logo aboutUs getInvolved resources impact donateButton'
+    ;
+    background-color: #0A3161;
+    vertical-align: middle;
+
+}
+.logoContainer {
+    grid-area: logo;
+    object-fit: scale-down;
+}
